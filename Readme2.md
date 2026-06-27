@@ -61,3 +61,25 @@ The system functions through a three-tier architecture. Here is how they communi
 - **[`JwtAuthenticationFilter.java`](file:///Users/sushank's%20macbook/Desktop/Employee%20Management%20System/server/src/main/java/com/sushank/ems/security/JwtAuthenticationFilter.java)**: Intercepts all incoming HTTP requests to check for the JWT token, extracts the authenticated username/roles, and registers them in Spring's SecurityContext.
 - **[`api.js`](file:///Users/sushank's%20macbook/Desktop/Employee%20Management%20System/client/src/services/api.js)**: Acts as the central communication controller for the frontend, consolidating all CRUD methods, parameters, and headers.
 - **[`index.css`](file:///Users/sushank's%20macbook/Desktop/Employee%20Management%20System/client/src/index.css)**: Implements the premium, professional liquid glass aesthetic using custom backdrop filters, gradient borders, and micro-hover animations.
+
+
+1. System Admin Account
+Workplace Email: admin@ems.com
+Password: admin123
+Employee ID: EMP001
+Permissions: Full system access, employee CRUD management, leave approvals, and dashboard analytics.
+👔 2. Manager Account
+Workplace Email: manager@ems.com
+Password: manager123
+Employee ID: EMP003
+Permissions: Approving/rejecting team leave requests, viewing performance, and attendance shift tracking.
+📋 3. HR Specialist Account
+Workplace Email: hr@ems.com
+Password: hr123
+Employee ID: EMP002
+Permissions: Managing employee records and viewing overall workforce statistics.
+👤 4. Standard Employee Account
+Workplace Email: employee@ems.com
+Password: employee123
+Employee ID: EMP004 (Locked to their own account)
+Permissions: Personal shift check-in/out, submitting leave requests, and viewing personal status notifications.
