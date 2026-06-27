@@ -485,7 +485,7 @@ function App() {
               </p>
               
               {/* Metrics Preview Row */}
-              <div className="grid grid-cols-3 gap-4 w-full max-w-lg mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-lg mb-8">
                 <div className="landing-card liquid-glass p-3 rounded-xl border border-white/5 text-center">
                   <span className="text-white/40 text-[9px] uppercase tracking-wider block">System SLA</span>
                   <span className="text-lg font-bold text-white mt-0.5">99.98%</span>
