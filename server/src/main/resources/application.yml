@@ -3,7 +3,7 @@ spring:
     name: ems
   data:
     mongodb:
-      uri: mongodb://localhost:27017/employee_db
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb+srv://Sushank:Sushank123@cluster0.fjfknpm.mongodb.net/employee_db?retryWrites=true&w=majority&appName=Cluster0}
       # Configures GridFS template name
       gridfs:
         bucket: ems-documents
